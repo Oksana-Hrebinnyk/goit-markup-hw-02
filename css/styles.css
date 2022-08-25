@@ -1,21 +1,21 @@
 :root {
     /* Fonts */
-    --main-font: "Roboto", sans-serif
-    --secondary-font: "Raleway"
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway";
     /* Text colors */
-    --main-txt-cl: #212121
+    --main-txt-cl: #212121;
     /* Background colors */
-    --main-bg-cl: #2F303A
+    --main-bg-cl: #2F303A;
 }
 .body{
     color: var(--main-txt-cl);
+    font-family: "Roboto";
 }
 
 /* Navigation to other pages */
 .logo{
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31/26);
@@ -24,8 +24,6 @@
 }
 .nav-list-item-studio{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -34,28 +32,25 @@
 }
 .nav-list-item{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color:var(--main-txt-cl)
+    color:var(--main-txt-cl);
 }
 .mail{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+.mail:hover{
     color: #2196F3;
 }
 .telephone{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -63,13 +58,15 @@
     color: #757575;
 }
 /* Section 1 */
+.first-section{
+    background: #2F303A;
+}
 .main-heading{
-    font-family: 'Roboto';
     font-size: 44px;
     line-height: calc(60 / 44);
     font-style: normal;
     font-weight: 900;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 .main-heading, .heading-pecularities{
     text-transform: uppercase;
@@ -78,44 +75,39 @@
     text-align: center;
 }
 .main-btn{
-    font-family: 'Roboto';
+    font-family: inherit;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 /* Section 2 */
 .heading-pecularities{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl)
+    color: var(--main-txt-cl);
 
 }
 .text-pecularities{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl)
+    color: var(--main-txt-cl);
 
 }
 /* Section 3 */
 .heading-2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl)
+    color: var(--main-txt-cl);
 }
 /* Section 4 */
 .staff-names{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -123,18 +115,26 @@
     color: var(--main-txt-cl);
 }
 .positions{
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
     color: #757575;
 }
 /* footer */
-.mail-footer{
-    text-decoration: none;
-    font-family: 'Roboto';
+.footer{
+    background: #2F303A;
+}
+.adress-footer{
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mail-footer{
+    font-style: normal;
+    text-decoration: none;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;   
@@ -142,9 +142,6 @@
 }
 .telephone-footer{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(14/14);
     letter-spacing: 0.03em;
@@ -152,8 +149,7 @@
 }
 /* Portfolio */
 .portfolio-btn-main{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -161,29 +157,27 @@
     color: #FFFFFF;
 }
 .portfolio-btns{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl)
+    text-align: center;
+    color: var(--main-txt-cl);
 }
 .projects-heading{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
-    color: var(--main-txt-cl)
+    text-align: center;
+    color: var(--main-txt-cl);
 }
 .projects-name{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
+    text-align: center;
     color: #757575;
 }
