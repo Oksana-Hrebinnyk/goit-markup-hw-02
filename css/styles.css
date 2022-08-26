@@ -20,7 +20,10 @@
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-    color: #2196F3;; 
+    color: var(--main-txt-cl) 
+}
+.logo-color{
+    color: #2196F3; 
 }
 .nav-list-item-studio{
     text-decoration: none;
@@ -91,12 +94,10 @@
 
 }
 .text-pecularities{
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: var(--main-txt-cl);
-
+    color: #757575;
 }
 /* Section 3 */
 .heading-2{
@@ -121,6 +122,15 @@
     color: #757575;
 }
 /* footer */
+.logo-footer{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 .footer{
     background: #2F303A;
 }
@@ -138,9 +148,10 @@
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;   
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .telephone-footer{
+    font-style: normal;
     text-decoration: none;
     font-size: 14px;
     line-height: calc(14/14);
@@ -166,16 +177,12 @@
     color: var(--main-txt-cl);
 }
 .projects-heading{
-    font-weight: 700;
-    font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
     text-align: center;
     color: var(--main-txt-cl);
 }
 .projects-name{
-    font-weight: 400;
-    font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
     text-align: center;
